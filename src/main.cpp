@@ -1,10 +1,10 @@
-#ifdef ARDUINO
-#include "../lib/io-fw-arduino/io-fw-arduino.h"
-#else
-#include "../lib/io-fw-cube/io-fw-cube.h"
-#endif
+#include "../extra-libs/io/io.h"
 
-#include "../lib/io.h"
+#ifdef IOARDUINO
+#include "../extra-libs/io/io-arduino/io-arduino.h"
+#elif IOCUBE
+#include "../extra-libs/io/io-cube/io-cube.h"
+#endif
 
 #define LOOP_DURATION_MS 100
 

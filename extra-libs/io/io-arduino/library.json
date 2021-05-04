@@ -1,10 +1,10 @@
 {
-    "name": "io-fw-arduino",
+    "name": "io-arduino",
     "repository": {
         "type": "git",
         "url": ""
     },
-    "description": "I/O library for microcontrollers",
+    "description": "I/O library for the arduino framework for microcontrollers",
     "frameworks": [
         "arduino"
     ],

@@ -1,10 +1,10 @@
 {
-    "name": "io-fw-cube",
+    "name": "io-cube",
     "repository": {
         "type": "git",
         "url": ""
     },
-    "description": "I/O library for microcontrollers",
+    "description": "I/O library for the stm32cube framework for microcontrollers",
     "frameworks": [
         "stm32cube"
     ],

@@ -1,7 +1,7 @@
 #include <stm32f4xx_hal.h>
 
 #include "../io.h"
-#include "io-fw-cube.h"
+#include "io-cube.h"
 
 void ioSleepMs(const uint16_t ms)
 {
