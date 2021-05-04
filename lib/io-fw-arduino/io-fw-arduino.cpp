@@ -1,6 +1,7 @@
 #include <Arduino.h>
 
-#include "io.h"
+#include "../io.h"
+#include "io-fw-arduino.h"
 
 void ioSleepMs(const uint16_t ms)
 {
